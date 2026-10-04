@@ -12,7 +12,7 @@
   <header>
     <a href="index.html">← 真夜中ラジオ_物の仕組み</a>
     <h1>プライバシーポリシー</h1>
-    <p class="muted">Midnight Radio Uploader ／ 制定日：2026年10月4日</p>
+    <p class="muted">Midnight Radio Uploader ／ 制定日：2026年10月4日（同日改定：利用する権限を縮小）</p>
   </header>
 
   <p>本ポリシーは、YouTube チャンネル「真夜中ラジオ_物の仕組み」の運営者（以下「運営者」）が使用する投稿ツール「Midnight Radio Uploader」（以下「本ツール」）における、利用者情報の取り扱いを定めるものです。</p>
@@ -26,8 +26,8 @@
   <h2>3. アクセス・取得する情報</h2>
   <p>本ツールは、運営者の Google アカウントでの許可（OAuth 2.0）にもとづき、次の範囲でのみ YouTube API にアクセスします。</p>
   <ul>
-    <li><code>youtube.upload</code>：動画のアップロード</li>
-    <li><code>youtube.force-ssl</code>：アップロードした動画のサムネイル・字幕の設定、投稿先チャンネルの名前と ID の確認</li>
+    <li><code>youtube.upload</code>：動画とサムネイル画像のアップロード</li>
+    <li><code>youtube.readonly</code>：投稿先チャンネルの名前と ID の確認（読み取りのみ）</li>
   </ul>
   <p>本ツールが取得・保存する情報は次のとおりです。</p>
   <ul>
@@ -59,7 +59,7 @@
 
   <h1 lang="en">Privacy Policy</h1>
   <div lang="en">
-  <p class="muted">Midnight Radio Uploader / Effective date: October 4, 2026</p>
+  <p class="muted">Midnight Radio Uploader / Effective date: October 4, 2026 (revised the same day: reduced scopes)</p>
   <p>This policy describes how "Midnight Radio Uploader" (the "Tool"), used by the owner of the YouTube channel "Midnight Radio: How Things Work" (the "Owner"), handles user information.</p>
 
   <h3>1. Use of YouTube API Services</h3>
@@ -69,7 +69,7 @@
   <p>The Tool is a personal tool used only by the Owner to upload videos to the Owner's own YouTube channel. It is not provided to anyone else.</p>
 
   <h3>3. Information accessed and collected</h3>
-  <p>Based on authorization granted through the Owner's Google account (OAuth 2.0), the Tool accesses the YouTube API only with the scopes <code>youtube.upload</code> (uploading videos) and <code>youtube.force-ssl</code> (setting thumbnails and captions for uploaded videos, and reading the channel name and ID to confirm the upload destination).</p>
+  <p>Based on authorization granted through the Owner's Google account (OAuth 2.0), the Tool accesses the YouTube API only with the scopes <code>youtube.upload</code> (uploading videos and thumbnails) and <code>youtube.readonly</code> (reading the channel name and ID to confirm the upload destination; read-only).</p>
   <ul>
     <li><strong>Authorization tokens</strong> are stored only in a file on the Owner's computer.</li>
     <li><strong>IDs of uploaded videos</strong> are stored as an upload record in a file on the Owner's computer.</li>
